@@ -1,13 +1,13 @@
 {% set name = "sphinxcontrib-video" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b813be3b602aa14b537ed18e8a52a876d0818ccfc9c4c7c8e4822227f677ce48
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 9b9c56c195b0d2dea3d5ee3b34c36048f4cf05ac640593ee71532c64d88fc197
 
 build:
   noarch: python
