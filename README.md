@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@ReimarBauer](https://github.com/ReimarBauer/)
+* [@hmaarrfk](https://github.com/hmaarrfk/)
 
